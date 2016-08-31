@@ -1,0 +1,14 @@
+Package: aprioriLite
+Type: Package
+Title: A Lightweight Implementation of the Apriori Algorithm
+Version: 0.9
+Date: 2016-08-31
+Authors@R: person("Hannes", "Riebl", email = "findus28@posteo.de",
+                  role = c("aut", "cre"))
+Description: The Apriori Algorithm is an algorithm for mining frequent
+             itemsets and association rules, usually in market basket analysis.
+             This package is compatible with the arules package.
+License: GPL-3
+Depends: R (>= 3.2.0), Matrix (>= 1.2-0)
+Imports: graphics, methods, utils
+Suggests: snow

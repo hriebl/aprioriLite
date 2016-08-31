@@ -1,0 +1,8 @@
+import("graphics", "methods")
+importFrom("utils", "combn")
+importMethodsFrom("Matrix", "rowSums", "colSums")
+
+export(aprioriSets, aprioriRules, apriori)
+exportClasses("itemMatrix", "itemsets", "rules", "transactions")
+exportMethods(dim, inspect, itemInfo, items, itemsetInfo, itemUnion, length,
+              nitems, plot, quality, show, size, summary, tidLists)
